@@ -1,0 +1,66 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 19, 2020, 12:58:28 PM
+    Author     : quang
+*/
+.container{
+    background-image: url(../images/bg.jpg);
+    /*background-size: cover;*/
+    background-repeat: repeat-y;
+    max-width: 880px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.img img{
+    
+    width: 400px;
+    height: auto;
+    padding-bottom: 20px;
+}
+.img{
+    margin: 0px 5px 5px 0px;
+}
+
+.content{
+    display: flex;
+    max-width: 880px;
+    margin-left: 100px;
+    margin-right: 90px;
+    margin-bottom: 10px;
+    
+}
+.post{
+    width: 485px;
+    padding-top: 20px;
+    padding-right: 10px;
+        
+}
+.text{
+    padding-bottom: 50px;
+    border-bottom: groove 1px;
+}
+.signature{
+    float: right;
+    color: #42554e;
+    font-size: 15px;
+    margin-top: 10px;
+}
+.icon1{
+    height: 10px;
+    width: 10px;
+    display: inline-block;
+    background-image: url(../images/comment.gif);
+    background-repeat: no-repeat;
+}
+.icon2{
+    height: 10px;
+    width: 10px;
+    display: inline-block;
+    background-image: url(../images/timeicon.gif);
+    background-repeat: no-repeat;
+}
