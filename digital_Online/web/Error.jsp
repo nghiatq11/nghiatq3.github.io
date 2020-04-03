@@ -27,7 +27,7 @@
                                 <br />
                             </c:when>    
                             <c:otherwise>
-                                <h1>Error ! Can't found this page...</h1>
+                                <h1>Error ! Can't found this page...hihi</h1>
                                 <br />
                             </c:otherwise>
                         </c:choose>
