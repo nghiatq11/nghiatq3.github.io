@@ -1,0 +1,34 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 13, 2020, 9:25:19 AM
+    Author     : quang
+*/
+.txtContact{
+    font-size: 30px;
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+.txtPhotographer{
+    margin-bottom: 15px;
+}
+.text{
+    font-size: 16px;
+    color: #ffffff;
+    margin-bottom: 10px;
+    display: flex;
+}
+.txtInfo{
+    margin-left: 20px;
+}
+.map{
+    background-image: url(../img/map.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 620px;
+    margin:100px 0;
+}

@@ -1,0 +1,56 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 2, 2020, 10:52:39 AM
+    Author     : quang
+*/
+
+.right-content{
+    width: 250px;
+}
+.sidebar{
+    margin-left:20px;
+    background: #8c3e40;
+}
+.head-sidebar{
+    background-color: rgb(48, 48, 48);
+    padding-left: 20px;
+    color: white;
+    padding: 10px 20px;
+}
+.head-sidebar h3{
+/*    position: absolute;
+    top: 15px;
+    color: white;
+    left: 50px;*/
+}
+
+.list-sidebar{
+    margin-top: 10px;
+    padding-bottom:11px;
+    padding-left:20px;
+    list-style: none;
+}
+.list-sidebar li a{
+    display: flex;
+    margin-bottom: 10px;
+    color: white;
+}
+.fb-share-logo, .gg-share-logo, .tt-share-logo{
+    width: 19px;
+    background-size: cover;
+    margin-right: 5px;
+}
+.tt-share-logo{
+   background-image: url(../img/twitter.jpg);
+}
+.fb-share-logo{
+   background-image: url(../img/facebook.jpg);
+}
+.gg-share-logo{
+   background-image: url(../img/google.PNG);
+}
+

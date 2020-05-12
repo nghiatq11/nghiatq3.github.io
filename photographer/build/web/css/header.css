@@ -1,0 +1,76 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 2, 2020, 10:37:54 AM
+    Author     : quang
+*/
+
+.center .nav{
+    display: flex;
+} 
+.center .nav .e-menu a{
+    color: white;
+    font-size: 17px;
+    text-decoration: none;
+}   
+.e-menu{
+    padding: 13px 13px;
+    list-style-type: none;
+    position: relative;
+}
+.e-menu::before {
+    background-color: rgb(172, 172, 172);
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(48, 48, 48));
+    width: 1px;
+    height: 50px;
+    display: block;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    content: "";
+    opacity: 0.24;
+    background-repeat: repeat-x;
+}
+.link-page{
+    color: #fff; 
+    text-decoration: none; 
+    font-weight: 400;
+    font-size: 30px;
+}
+.menu{
+    background-color: #303030;
+    height:50px;
+}
+.menu .active{
+    color: #f4f4f4;
+    font-weight: 600;
+}
+
+.logo-title{
+    background-color: #722f31;
+    padding-top:15px;
+    height: 130px;
+}
+.logo{
+    background-image: url(../img/logo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 90px;
+    height: 76px;
+    margin-right: 15px;
+    margin-top: 11px;
+}
+.title{
+    font-weight:400;
+    line-height:50px;
+}
+
+.sub-title{
+    line-height: 22px;
+    font-size:22px;
+    color: white;
+    margin-top: 10px;
+}

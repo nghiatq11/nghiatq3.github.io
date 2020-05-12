@@ -1,0 +1,66 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 3, 2020, 8:50:42 AM
+    Author     : quang
+*/
+.list-img{
+ width: 666px;
+ margin-bottom: 10px;
+}
+.list-img li{
+    list-style-type: none;
+    width: 23%;
+    height: 150px;
+    border-radius: 5px;
+    float: left;
+    margin-left: 17px;
+    margin-bottom: 20px;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.list-img li:nth-child(4n+1){
+    margin-left: 0;
+}
+.list-img li:nth-child(4n+1){
+    clear: left;
+    margin: 0;
+}
+
+.image img{
+    width: 130px;
+    height: auto;
+    
+}
+.image{
+    overflow: hidden;
+    position: relative;
+}
+.image::after {
+    content: '';
+    position: absolute;
+    z-index: 0;
+    box-shadow: 0px 20px 13px rgba(0, 0, 0, 0.3);
+    width: 50%;
+    left: 27%;
+    height: 20px;
+    bottom: 0;
+    border-radius: 50px;
+    border-bottom-right-radius: 200%;
+    border-bottom-left-radius: 200%;
+}
+.prerius{
+    position: absolute;
+    left: 0;
+    top: 50%;
+}
+.next{
+    position: absolute;
+    right: 0;
+    top: 50%;
+}

@@ -1,0 +1,48 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 2, 2020, 10:37:54 AM
+    Author     : quang
+*/
+.footer{
+    background-color:rgb(48, 48, 48);
+    height: 88px;
+    margin: 0px;
+}
+.footer a{
+    float: right;
+    margin-top: 30px;
+    color: white;
+}
+.content-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.number{
+    float: right;
+    color: white;
+    margin-top: 30px;
+    
+}
+.number ul{
+    display: flex;
+    
+}
+.number ul li{
+    text-align: center;
+    border-radius: 3px;
+    color: black;
+    font-weight: 900;
+    list-style-type: none;
+    background-color: white;
+    width: 15px;
+    margin: 2px
+    
+}
+
+

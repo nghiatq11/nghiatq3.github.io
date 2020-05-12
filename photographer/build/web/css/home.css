@@ -1,0 +1,55 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 2, 2020, 10:37:32 AM
+    Author     : quang
+*/
+
+.content-left .content-img h5{
+    color: white;
+    font-style: italic;
+    margin-top: 10px;
+    font-weight: 400;
+}
+.content-left .list-gallery .gallery a{
+    color: white;
+}
+
+.list-gallery .gallery{
+    margin-left: 15px;
+    width: 210px;
+    float: left;
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+.list-gallery ul li:nth-child(3n+1){
+    clear: left;
+    margin-left: 0;
+}
+.list-gallery ul li:nth-child(3n+1){
+    margin-left: 0;
+}
+.list-gallery .img{
+    overflow: hidden;
+}
+.list-gallery .img img{
+    width: 210px;
+}
+.text{
+    font-size: 18px;
+    color: white;
+}
+.about-me{
+    margin-top: 30px;
+    padding-bottom: 40px;
+}
+
+.gallery h2{
+    margin: 10px 0;
+    font-weight: 400;
+}
+
+
